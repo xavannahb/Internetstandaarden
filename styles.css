@@ -5,6 +5,9 @@
     background-color: #a8c992;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* navigatie bar */
 
 nav {
@@ -26,10 +29,14 @@ a:hover {
 }
 
 a:active { 
-    color:  #0e1709
+    color:  #587644
 }
 
-/* homepaging */
+a:focus {
+    color:  #587644 
+}
+
+/* homepagina */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +72,13 @@ h2 {
     padding-top: 100px;
 }
 
+.meerinfoknop {
+    background: white;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    border-radius: solid;
+}
+
 .homepage-2 { 
     padding-top: 20px;
     text-align: center;
@@ -77,6 +91,10 @@ h2 {
     gap: 2em;
     padding-top: 20px;
     padding-bottom: 50px;
+}
+
+.matcha {
+    text-decoration: underline;
 }
 
 /* hover image */
@@ -130,70 +148,52 @@ h2 {
     padding-top: 20px;
     gap: 1.5em;
     text-align: center;
+    padding-left: 12em;
+    padding-right: 12em;
     padding-bottom: 80px
 }
 
 /* pagina 2 */
 
-.backroundimagepage2 {
+.backroundimagepagina2 {
     background-image: url(images/backroundimage2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #91b17c;
+    background-color: #a8c992;
 }
 
 .pagina2 {
     padding-top: 950px;
+    text-align: center;
+    padding-right: 11em;
+    padding-left: 11em;
+}
+
+.watismatcha {
+    display: flex;
+    gap: 3em; 
+    padding-bottom: 4em;
+}
+
+.watismatcha img {
+    width: 200px;
+    height: 200px;    
 }
 
 /* pagina 3 */
 
-.backroundimagepage3 {
+.backroundimagepagina3 {
     background-image: url(images/backroundimage3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #91b17c;
+    background-color: #a8c992;
+}
+
+.pagina3 {
+    padding-top: 950px;
 }
 
 .verschillendesoortenmatcha {
-    padding-top: 950px;
-}
-
-.ceremonial {
-    display: flex;
-    padding-left: 10em;
-    padding-right: 10em;
-    gap: 3em;
-}
-
-.premium {
-    display: flex;
-    padding-left: 10em;
-    padding-right: 10em;
-    gap: 3em;
-}
-
-.culinary {
-    display: flex;
-    padding-left: 10em;
-    padding-right: 10em;
-    gap: 3em;
-}
-
-
-/* pagina 4 */
-
-.backroundimagepage4 {
-    background-image: url(images/backroundimage4.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #91b17c;
-}
-
-.beste-matchah-2 {
-    padding-top: 950px;
-}
-.bestematcha {
     display: flex;
     padding-left: 10em;
     padding-right: 10em;
@@ -201,11 +201,35 @@ h2 {
     padding-top: 100px;
 }
 
-.bestematcha img {
-    width: 400px;
-    height: 400px;    
+.verschillendesoortenmatcha img {
+    width: 350px;
+    height: 350px;
 }
 
-.bestematcha h2 {
-    padding-top: 30px
+/* pagina 4 */
+
+.backroundimagepagina4 {
+    background-image: url(images/backroundimage4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #a8c992;
 }
+
+.bestematchainamsterdam {
+    padding-top: 950px;
+}
+
+.bestematcha {   
+    display: flex;
+    text-align: center;
+    gap: 3em;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 100px;
+}
+
+.bestematcha img {
+    width: 200px;
+    height: 200px;     
+}
+
