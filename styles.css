@@ -12,10 +12,9 @@ html {
 
 nav {
     display: flex;
-    justify-content: center;
 }
 
-il {
+li {
     padding-right: 2em;
 }
 
